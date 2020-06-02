@@ -22,12 +22,16 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
 }
-nav li{
+nav a{
     border:  1px;
 }
-nav li:active{
+nav a:active{
     color: purple;
 }
-nav li:visited{
+nav a:visited{
+    color: white;
+}
+nav a{
+    text-decoration: none;
     color: white;
 }
