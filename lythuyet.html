@@ -1,0 +1,197 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        nav div {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        nav button {
+            height: 100%;
+            background-color: royalblue;
+            padding: 8px;
+            font-weight: bold;
+            outline: none;
+            border: none;
+        }
+
+        .drop a {
+            display: none;
+            background-color: royalblue;
+            height: 10vw;
+            font-size: 4vw;
+            display: block;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .drop a:nth-child(even) {
+            background-color: steelblue;
+        }
+
+        .dropcontent {
+            display: none;
+        }
+
+        .drop:hover .dropcontent {
+            display: block;
+        }
+        article{
+            padding: 6px;
+            margin: 2%;
+             border: 1px solid black;
+              border-radius: 5px;
+        }
+        section{
+            border: 2px dotted;
+        }
+        .Đề{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .Đề a {
+            color: whitesmoke;
+            display: block;
+            border-radius: 5%;
+            font-weight: bold;
+            margin: 8px;
+            padding: 4px;
+            text-decoration: none;
+            background-color: royalblue;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        }
+        #top{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0, 0.5);
+        }
+        #top:hover{
+            background-color: rgba(0, 0, 0, 0, 1.0 );
+        }
+    </style>
+</head>
+
+<body>
+    <button id="top" style="font-size:24px"><a href="#header"><i class="fa fa-arrow-circle-up"></i></a></button>
+    <header id="header" style="display: flex; background-color: royalblue; height: 10vw;">
+        <h1 style="width: 30%; font-size: 5vw;"> Lý Thuyết</h1>
+        <nav style="width: 70%; display: flex; justify-content: space-around; flex-direction: row; height: 100%;">
+            <div class="drop">
+                <button>Home</button>
+            </div>
+            <div class="drop">
+                <button>Lý Thuyết</button>
+            </div>
+            <div class="drop">
+                <button>form đề</button>
+                <div class="dropcontent">
+                    <a href="#2018-2019">2018-2019</a>
+                    <a href="#2019-2020">2019-2020</a>
+                    <a href="#2016-2017">2016-2017</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <article id="Lý_Thuyết">
+        <details>
+            <summary>Quy tắc l'Hôpital</summary>
+            <h5>Dùng đề giải bài tính Lim</h5>
+            <p style="background: cornflowerblue; padding: 6px; font-weight: bold; margin: 16px;">Nếu đầu bài yêu cầu
+                mình tính lim của một hàm gì đó mà mình có thể tách hàm đấy thành hai Tử sô và mẫu số ;
+                thì nếu Tử/Mẫu =0/0 hoặc vô cùng / vô cùng thì ta áp dụng Lô-pi-tan.</p>
+            <p>
+            <h6>Vd những bài áp dụng được Lo-pi-tan</h6>
+            <div>
+                <img src="C:\Users\ASUS\Documents\GitHub\hoctoancaocap\pic\vi_du_lopitan.png" alt="">
+                <h6>Dạng 0/0</h6>
+            </div>
+            <div>
+                <img src="C:\Users\ASUS\Documents\GitHub\hoctoancaocap\pic\vi_du_lopitan.png" alt="">
+                <h6>Dạng 0/0</h6>
+            </div>
+
+            </p>
+        </details>
+        <details>
+            <summary>Logarit hóa</summary>
+        </details>
+        <details>
+            <summary>Vi Phân</summary>
+        </details>
+        <details>
+            <summary>Tích Phân suy rộng</summary>
+        </details>
+        <details>
+            <summary>CHuỗi hội tụ</summary>
+        </details>
+        <details>
+            <summary>Đạo hàm riêng</summary>
+        </details>
+    </article>
+    <article id="Form">
+        <h4>Form đề</h4>
+        <section is=2019-2020>
+            <h3>Đề 2019-2020</h3>
+            <ol>
+                <li><a href="" >Tính lim</a></li>
+                <li><a href="">Vi phân</a> , <a href="">Liên tục</a>,<a href=""> Marclaurin</a></li>
+                <li><a href="">Tích phân suy rông</a> </li>
+                <li><a href="">Chuỗi Hội Tụ</a> </li>
+                <li><a href="">Cực trị,Đạo hàm riêng</a></li>
+            </ol>
+            <div class="Đề">
+                <a href="">Giải Đề 01</a>
+                <a href="">Giải Đề 05</a>
+                <a href="">Giải Đề 06</a>
+                <a href="">Giải Đề 08</a>
+            </div>
+        </section>
+        <br>
+        <section id=2018-2019>
+            <h3>Đề 2018-2019</h3>
+            <ol>
+                <li><a href="" >Tính lim</a></li>
+                <li><a href="">Vi phân</a> , <a href="">Liên tục</a>,<a href=""> Marclaurin</a></li>
+                <li><a href="">Tích phân suy rông</a> </li>
+                <li><a href="">Chuỗi Hội Tụ</a> </li>
+                <li><a href="">Cực trị,Đạo hàm riêng</a></li>
+            </ol>
+            <div class="Đề">
+                <a href="">Giải Đề 02</a>
+                <a href="">Giải Đề 01</a>
+            </div>
+        </section>
+        <br>
+        <section id="2016-2017">
+            <h3>Đề 2016-2017</h3>
+            <ol>
+                <li><a href="" >Tính lim</a></li>
+                <li><a href="">Tiệm cân</a></li>
+                <li><a href="">Tích phân suy rông</a> </li>
+                <li><a href="">Chuỗi Hội Tụ</a> </li>
+                <li><a href="">Cực trị,Đạo hàm riêng</a></li>
+            </ol>
+            <div class="Đề">
+                <a href="">Giải Đề 02</a>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>
