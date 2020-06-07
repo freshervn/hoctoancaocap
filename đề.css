@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+nav a:link{
+    color: white;
+}
+img{
+    width: 100%;
+}
+.đề{
+    padding: 10%;
+}
